@@ -1,0 +1,24 @@
+@CHARSET "UTF-8";
+
+#metro {
+	position : relative;
+}
+
+.metroitem {
+	position : absolute;
+	background : #fff;
+	top : 0px;
+	left : 0px;
+	overflow : hidden;
+}
+.metroanimate {
+	-webkit-transition : -webkit-transform 0.3s ease-in-out;
+	-moz-transition    : -moz-transform    0.3s ease-in-out;
+	-ms-transition     : -ms-transform     0.3s ease-in-out;
+	-o-transition      : -o-transform      0.3s ease-in-out;
+	transition         : transform         0.3s ease-in-out;
+}
+
+body {
+	background : #000;
+

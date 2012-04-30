@@ -1,0 +1,73 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+		<title>Windows 8</title>
+		<link rel="stylesheet" href="win8.css" media="all" />
+		<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+		<script type="text/javascript" src="js/src/metro.js" charset="UTF-8"></script>
+		<script type="text/javascript">
+			document.addEventListener('DOMContentLoaded', function() {
+				new Metro.Startup();
+			}, false);
+		</script>
+		
+	</head>
+	<body>
+		<div id="main">
+			<h1>スタート</h1>
+			<div id="account_name">
+				<span>sugimoto&nbsp;yoshiaki</span>
+				<img src="data:image/png;base64,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" width="40" height="40" />
+			</div>
+			
+			<div id="metro">
+				<div class="metroitem initial" data-gridx="1" data-gridy="1" data-iconname="ie" data-icon="1" data-bg="blue" data-app="InternetExplorer"><span>Interner Explorer</span></div>
+				<div class="metroitem initial" data-gridx="1" data-gridy="1" data-iconname="map" data-icon="1" data-bg="purple" data-app="GoogleMap"><span>Maps</span></div>
+				<div class="metroitem initial" data-gridx="2" data-gridy="1" data-iconname="video" data-icon="1" data-bg="orange"><span>ビデオ</span></div>
+				<div class="metroitem initial" data-gridx="2" data-gridy="1" data-iconname="photo" data-icon="1" data-bg="crimson"><span>フォト</span></div>
+				<div class="metroitem initial" data-gridx="2" data-gridy="1" data-iconname="mail" data-icon="1" data-bg="green"><span>メール</span></div>
+				
+				
+				<div class="metroitem initial" data-gridx="2" data-gridy="1" data-iconname="youtube" data-icon="1" data-bg="crimson"><span>Youtube</span></div>
+				<div class="metroitem initial" data-gridx="2" data-gridy="1" data-iconname="calendar" data-icon="1" data-bg="green"><span>カレンダー</span></div>
+				<div class="metroitem initial" data-gridx="2" data-gridy="1" data-iconname="people" data-icon="1" data-bg="orange"><span>People</span></div>
+				<div class="metroitem initial" data-gridx="2" data-gridy="1" data-iconname="music" data-icon="1" data-bg="purple"><span>ミュージック</span></div>
+			</div>
+			<div id="app_close">
+				
+			</div>
+		</div>
+		<div id="login">
+			<div id="login_box">
+				<img src="images/loginnoimage.png" width="200" height="200" />
+				<form>
+					<p>
+						sugimoto&nbsp;yoshiaki<br />
+						<span>neo.yoshiaki.sugimoto@gmail.com</span>
+					</p>
+					<fieldset class="toggle">
+						<input type="password" id="passwd" placeholder="パスワード" />
+						<input type="image" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAYAAAByDd+UAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAALEgAACxIB0t1+/AAAABx0RVh0U29mdHdhcmUAQWRvYmUgRmlyZXdvcmtzIENTNXG14zYAAAD9SURBVEiJY1Rv6vjPQEfARE/LRi0ctXDUQqyAhRxNanIyDFoS4gwMDAwM1168ZLj16AltLXz96RNDXpAfgxQvL8P3P38YcjdtZThy9QZReskK0vcfPjEEL1jC8OzzZwZOFhaGyX7eDDbaGrSzkBJLCQbpzNgIBlk+PoIGwSzNZWDAG7wELZTl42NQEhIkaCHM0ioHOwYvSizcc/ceg/Rr3D5UEBRg0BYTZWBgYGB49vkzQ/TSFXjNI2hh3449OOVstDUYJvt5wy0LXrCE4f2HT3jNIzvRwCzjZGEh2jKyLSTXMgYGMjP+kas3GAyJzOjoYPgX3qMWjlo4+C0EAFRnWLEuNzvYAAAAAElFTkSuQmCC" alt="" />
+					</fieldset>
+					<div class="toggle" id="welcome">
+						ようこそ
+					</div>
+					<div class="toggle" id="incorrect">
+						<span>メールアドレスまたはパスワードが間違っています。もう一度やり直して下さい。</span><br />
+						<a href="#" id="back_btn"></a>
+					</div>
+				</form>
+			</div>
+		</div>
+		<div id="screen">
+			<div id="screen_info">
+				<h1></h1>
+				<h2></h2>
+			</div>
+		</div>
+		<div id="startup"></div>
+		<div id="application_boot" data-icon="1"></div>
+
+</html>
